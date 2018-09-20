@@ -18,3 +18,8 @@ Mis notas de como usar git
 |`git checkout <branch_name>`|Cambiar de rama.|
 |`git branch master FETCH_HEAD`|Crear rama desde el origin HEAD.|
 
+## Referencias
+
+[How do I fetch only one branch of a remote Git repository?](https://stackoverflow.com/questions/6368987/how-do-i-fetch-only-one-branch-of-a-remote-git-repository)
+
+
