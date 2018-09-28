@@ -17,9 +17,14 @@ Mis notas de como usar git
 |`git checkout <branch_name>`|Cambiar de rama.|
 |`git checkout <branch_name>`|Cambiar de rama.|
 |`git branch master FETCH_HEAD`|Crear rama desde el origin HEAD.|
+|`git commit --amend`|Renombrar el último commit.|
+|`git push --force example-branch`|Subir el cambio de nombre del último commit en caso de que este ya esté arriba.|
 
 ## Referencias
 
 [How do I fetch only one branch of a remote Git repository?](https://stackoverflow.com/questions/6368987/how-do-i-fetch-only-one-branch-of-a-remote-git-repository)
+
+[Changing a commit message](https://help.github.com/articles/changing-a-commit-message/#commit-has-not-been-pushed-online)
+
 
 
