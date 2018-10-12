@@ -16,6 +16,7 @@ Mis notas de como usar git
 |`git branch <branch_name>`|Crear nueva rama.|
 |`git checkout <branch_name>`|Cambiar de rama.|
 |`git checkout <branch_name>`|Cambiar de rama.|
+|`git fetch <remote_name> <branch_name`|Obtener rama desde el origin u otro remote, es requerido antes de hacer `git branch <branch_name> FETCH_HEAD`.|
 |`git branch <branch_name> FETCH_HEAD`|Crear rama desde el origin HEAD.|
 |`git commit --amend`|Renombrar el último commit.|
 |`git push --force example-branch`|Subir el cambio de nombre del último commit en caso de que este ya esté arriba.|
