@@ -20,6 +20,7 @@ Mis notas de como usar git
 |`git branch <branch_name> FETCH_HEAD`|Crear rama desde el origin HEAD.|
 |`git commit --amend`|Renombrar el último commit.|
 |`git push --force example-branch`|Subir el cambio de nombre del último commit en caso de que este ya esté arriba.|
+|`git checkout -b <branch_name>`|Crear nueva rama con los cambios no comiteados.|
 
 ## Referencias
 
