@@ -1,6 +1,9 @@
 # Como usar git
 Mis notas de como usar git
 
+## Aprender git 
+https://learngitbranching.js.org/
+
 ## Comandos más utilizados
 
 |Comando|Utilización|
