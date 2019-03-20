@@ -1,0 +1,14 @@
+@startuml
+start 
+if (¿Se tienen los ultimos cambios de master?) then (No)
+  :Se hace git pull master;
+  if (¿Hay conflictos?) then (si)
+    :Se corrigen los conflictos;
+  else (No)
+  endif
+else (Si)
+endif
+:Se hace git push <rama>;
+:Se hace merge con master;
+stop
+@enduml
